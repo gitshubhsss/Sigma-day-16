@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1A2930;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav {
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 20px 0px 20px #c4e3f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.ApanaCollage-logo {
+    width: 100px;
+    height: 55px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+.logo-image {
+    width: 100%;
+}
+.nav-menu {
+    width: 528px;
+    height: 40px;
+    position: relative;
+    right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#batch-btn {
+    height: 100%;
+    width: 165px;
+    color: white;
+    background-color: #6674CC;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    align-self: center;
+}
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+}
+#sign-up {
+    color: #6674CC;
+    font-size: 16px;
+    padding: 6px 16px;
+    border-radius: 4.2px;
+    background-color: transparent;
+    border: 2px solid #6674CC;
+    cursor: pointer;
+}
+section {
+    display: flex;
+    height: 560px;
+    justify-content: center;
+    background-image: linear-gradient(  to right, white,white, #d5d9ef);
+}
+.expore-batches {
+    position: relative;
+    top: 80px;
+    height: 420px;
+    width: 575px;
+    display: flex;
+    flex-direction: column;
+}
+.batch-quote {
+    height: 215px;
+    width: 456px;
+    position: relative;
+    top: 40px;
+}
+.batch-quote h1,
+.p{
+    font-size: 50px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(102, 116, 204);;
+    line-height: 70px;
+}
+span{
+    position: relative;
+    top: 35px;
+    font-size: 22px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+.explore-button {
+    height: 53px;
+    width: 246px;
+    border: 2px solid black;
+    position: relative;
+    top: 96px;
+    border-radius: 9.2px;
+    padding: 15px 27px;
+    font-size: 18px;
+    background-color: #6674CC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 50PX;
+}
+.Shraddha-image {
+    position: relative;
+    top: 80px;
+    height: 420px;
+    width: 420px;
+    background-image: url(ShraddhaDidi.png);
+    background-size: cover;
+}
+.achivement-numbers{
+    height: 206px;
+    background-color: #6674CC;
+    background-image: url(numbersbackgound.png);
+    background-size: cover; 
+}
+.achivement-heading{
+    color: #ffffff;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    top: 31px;
+}
+.achive-records{
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.records{
+    width: 220px;
+    height: 80px;
+    margin: 0px 40px; 
+}
+.fa-solid{
+    color: white;
+    font-size: 24px;
+}
+.learners,.views,.subscibers{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.record-heading{
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+  padding: 0px 0px 0px 12px;
+}
+.h5{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 0.01rem;
+    line-height: 1.55;
+    position: relative;
+    top: -15px ;
+}
+.newBatch{
+    margin-bottom: 70px;
+}
+.newB-container{
+    height: 300px;
+    margin: 0 178px;
+    line-height: 3.1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.new-batch-heading{
+    font-size: 18px;
+    font-family: "Barlow";
+    color: #6674CC;  
+}
+.join-batch{
+    font-size: 1.4rem;
+    font-family:  "Barlow";;
+}
+#start-journey{
+    font-family: "Inter", sans-serif;
+    color: #262626;
+    font-size: 17px;
+    font-weight: 400;
+}
+#explore{
+    background-color: #6674CC;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-family: "Inter";
+    font-weight: bold;
+    text-transform: none;
+    padding: 15px 27px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+.placements-componeys{
+   background-color: #edf5f9;
+   padding: 80px 0px;
+}
+.location-heading{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+.location-i{
+    font-size: 32px;
+    font-family: "Barlow", sans-serif;
+    color: #6674CC;
+}
+.componies{
+    margin: 50px 200px 0px;
+    margin-left: 250px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr;
+}
+.comp-img{
+    background-size: cover;
+    height: 67px;
+}
+.manyMore{
+   text-align: center;
+   font-family: "Barlow", sans-serif;
+   font-size: 1.4rem;
+   color: #1c1c1c;;
+   font-weight: 300;
+   margin-bottom: 50px;
+}
+.h4{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: "Inter";
+    color: #6674CC;
+}
+.students-info{
+    margin: 20px 188px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.placed-student{
+    background-size: cover;
+    height: 420px;
+    margin-bottom: 30px;
+    box-shadow:  0px 5px 4px #edf5f9;;
+}
+.btn{
+    text-align: center;
+}
+#see-more{
+    padding: 15px 27px;
+    font-family: "Inter";
+    border-radius: 16px;
+    font-size: 1.1rem;
+    background-color: #6674CC;;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.mission-h1{
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Barlow", sans-serif;
+    font-size: 21px;
+}
+.mission-image{
+    width: 1120px;
+    height: 614px;
+    margin: 50px auto;
+    background-image: url(ShradaMam.jpeg);
+    background-size: cover;
+}
+.join-us{
+    margin-top: 20px;
+    background-color: #f0f5f7 ;
+    padding: 80px;
+}
+.join-us-h1{
+    text-align: center;
+    font-size: 29px;
+    font-family: "Barlow", sans-serif;  
+}
+ #channels{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #100f0f;
+}
+.channel-names{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.media-channels{
+    height: 200px;
+    width: 200px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+.meadia-image{
+    background-size: cover;
+    width: 20%;
+    background-color: transparent;
+}
+.meadia-platform{
+    font-family: "Inter";
+    font-size: 16PX;
+    font-weight: 400;
+}
+.platform-name{
+    font-family: "Inter";
+    font-size: 14PX;
+}
